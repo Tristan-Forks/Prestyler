@@ -5,6 +5,8 @@
 //  Created by Ilya Krupko on 01/03/2019.
 //
 
+#if canImport(UIKit)
+import UIKit
 import Foundation
 
 
@@ -60,3 +62,5 @@ public class Precolor {
         return UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: 1)
     }
 }
+
+#endif

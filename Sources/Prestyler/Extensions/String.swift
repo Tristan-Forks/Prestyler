@@ -5,6 +5,8 @@
 //  Created by Ilya Krupko on 25.10.2021.
 //
 
+#if canImport(UIKit)
+import UIKit
 import Foundation
 /// Prestyler uses a public extension to provide access for string formating
 
@@ -75,3 +77,5 @@ extension String {
         )
     }
 }
+
+#endif

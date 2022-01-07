@@ -5,6 +5,10 @@
 //  Created by Ilya Krupko on 28/02/2019.
 //
 
+#if canImport(UIKit)
+import UIKit
+import Foundation
+
 struct TextRule {
     let styles: [Any]
     var positions: [Int]
@@ -140,3 +144,5 @@ fileprivate extension NSRange {
         return result
     }
 }
+
+#endif

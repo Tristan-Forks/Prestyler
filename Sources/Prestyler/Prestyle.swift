@@ -5,6 +5,7 @@
 //  Created by Ilya Krupko on 25.10.2021.
 //
 
+#if canImport(UIKit)
 import Foundation
 
 /// This enumeration can be used to describe Rule styles.
@@ -20,3 +21,4 @@ public enum Prestyle {
     /// Underline text
     case underline
 }
+#endif

@@ -5,6 +5,7 @@
 //  Created by Ilya Krupko on 25.10.2021.
 //
 
+#if canImport(UIKit)
 import Foundation
 
 /// PrefilterType specifies an entries type in prefilter
@@ -62,3 +63,4 @@ fileprivate extension String {
         return str
     }
 }
+#endif
